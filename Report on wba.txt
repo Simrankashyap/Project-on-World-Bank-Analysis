@@ -13,69 +13,19 @@ The following project is based on the WORLD-BANK data set . The main aim of the 
 MObile subscription military expenditure export of good service value added industry value added agriculture value added inflation rate GDP growth energy use improved sanitation facility improved water source forest area prevalence of HIV in the population etc.
 
 #PROBLEM   
-The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classifiedclustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .  
+The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classifiedclustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .
 
-
-
-
-
-
-
-                        
-
-
-
-
-
-                                         DATA SET USED
-
-
-
-
+#DATA SET USED
 
 The data set used is World - bank . Csv . It consists of the following 5 columns -
-
-
-
-.Series.Name
-
-
-
+Series.Name
 Series.Code
-
-
-
 Country.Name
-
-
-
-Country.Code
-
-
-
-X2015..YR2015.
-
-
-
-  
-
-
+Country.Code X2015..YR2015.
 
 It consists of 11723 rows . There are 217 different countries in the given data set . The data set contains the information about different countries  till the year 2015 . 
 
-
-
-                                        
-
-
-
-
-
-                                         METHDOLOGY 
-
-
-
-
+#METHDOLOGY 
 
 The basic methodology , that is the basic tools used in the project are -
 

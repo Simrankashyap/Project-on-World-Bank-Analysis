@@ -1,0 +1,152 @@
+INTRODUCTION
+
+
+
+The following project is based on the WORLD-BANK data set . The main aim of the project is to read the above data set and classify them as rich and poor countries based on their per capita income (PCI) . The R tool used for this purpose is KMEANS . Various barplots are considered for the rich and poor countries in different categories . The following are the categories 
+
+MObile subscription
+
+military expenditure
+
+export of good
+
+service value added
+
+industry value added
+
+agriculture value added
+
+inflation rate
+
+GDP growth
+
+energy use
+
+improved sanitation facility
+
+improved water source
+
+forest area
+
+prevalence of HIV in the population etc
+
+  
+
+                              PROBLEM   
+
+
+The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classifiedclustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .  
+
+
+
+                        
+
+
+                                         DATA SET USED
+
+
+The data set used is World - bank . Csv . It consists of the following 5 columns -
+
+.Series.Name
+
+Series.Code
+
+Country.Name
+
+Country.Code
+
+X2015..YR2015.
+
+  
+
+It consists of 11723 rows . There are 217 different countries in the given data set . The data set contains the information about different countries  till the year 2015 . 
+
+                                        
+
+
+                                         METHDOLOGY 
+
+
+The basic methodology , that is the basic tools used in the project are -
+
+1.Clustering -Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). Cluster analysis itself is not one specific algorithm, but the general task to be solved. It can be achieved by various algorithms that differ significantly in their notion of what constitutes a cluster and how to efficiently find them. Popular notions of clusters include groups with small distances among the cluster members, dense areas of the data space, intervals or particular statistical distributions  
+
+
+
+
+
+
+2.Sentiment Analysis - Sentiment analysis (also known as opinion mining) refers to the use of natural language processing (NLP), text analysis and computational linguistics to identify and extract subjective information from the source materials. Generally speaking, sentiment analysis aims to determine the attitude of a writer or a speaker with respect to a specific topic or the overall contextual polarity of a document.
+
+
+
+    
+
+
+
+
+ 3. Barplot - A bar chart or bar plot displays rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. In R, they are made using the barplot function. Bars can be grouped by categories,
+
+making grouped barplot. Barplot must not be confused with histogram nor with boxplot.
+
+
+
+                              
+
+                  EXPERIMENTAL WORK WITH                          
+
+                                                      CODE    
+
+
+                                          
+
+
+
+
+
+
+
+
+
+                              RESULT ANALYSIS
+
+It is a bar plot of the problem, showing the difference between Rich Vs poor in several countries 
+
+This bar plot is showing the Population Growth of different countries
+
+
+
+This plot is showing the Surface Area required by the countries
+
+
+
+                      
+
+
+
+
+
+
+In this plot, Fertility rate of the different countries is shown                        
+
+
+
+In this plot, Gender Parity is shown
+
+
+
+
+
+This plot is showing the GDP growth of the countries.
+
+                                     
+
+                        REFERENCES
+
+              Data Set httpdatabank.worldbank.orgdatahome.aspx
+
+
+                                          CONCLUSION 
+
+
+We have determined the GDP growth, surface area occupied, fertility rate, mortality, Gender Parity etc of the countries from which we can distinguish in between the different countries.                        
